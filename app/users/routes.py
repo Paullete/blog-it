@@ -24,7 +24,7 @@ def register():
         user = User(username=form.username.data, email=form.email.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-        mail_message("Welcome to Pote Bl💞gs","email/welcome_user",user.email,user=user)
+        mail_message("Welcome to 𝒹𝓇𝑒𝒶𝓂 𝒷𝓁💞𝑔𝑔𝑒𝓇 ","email/welcome_user",user.email,user=user)
         flash('Your account has been created! You are now able to log in', 'success')
         return redirect(url_for('users.login'))
     return render_template('register.html', title='Register', form=form)
