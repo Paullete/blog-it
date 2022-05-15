@@ -1,1 +1,1 @@
-web: ./start.sh
+web: ./start.sh --bind 0.0.0.0:$PORT
