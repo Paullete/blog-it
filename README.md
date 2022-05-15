@@ -17,7 +17,7 @@ The user would like to.... :
 <!-- ## [Demo](https://pote-pitch.herokuapp.com/) click to view -->
 
   The app looks like this: 
-  ![Image](./app/static/profile_pics/Screenshot%20from%202022-05-15%2011-10-17.png)
+  ![Image](./app/static/profile_pics/Screenshot%20from%202022-05-14%2013-00-55.png)
 
 
 ## Installation / Setup instruction
