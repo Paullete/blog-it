@@ -1,1 +1,1 @@
-web: gunicorn-start.sh 1:app --preload
+web: gunicorn manager:app --preload
