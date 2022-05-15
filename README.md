@@ -14,10 +14,10 @@ The user would like to.... :
 +  Set up a profile with a picture.
 +  Logout of their profile.
 
-<!-- ## [Demo](https://pote-pitch.herokuapp.com/) click to view -->
+## [Demo](https://pote-blog.herokuapp.com/) click to view
 
   The app looks like this: 
-  ![Image](./app/static/profile_pics/Screenshot%20from%202022-05-14%2013-00-55.png)
+  ![Image](./app/static/profile_pics/Screenshot%20from%202022-05-15%2011-10-17.png)
 
 
 ## Installation / Setup instruction
