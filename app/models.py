@@ -44,3 +44,19 @@ class Post(db.Model):
 
     def __repr__(self):
         return f"Post('{self.title}', '{self.date_posted}')"
+    
+# class Comment(db.Model):
+#         """
+#     this Comment class helps us create a new comment a user submits
+#     args: db.model which helps us connect our class to the db
+#     """
+#     id = db.Column(db.Integer, primary_key=True)
+#     title = db.Column(db.String(100), nullable=False)
+#     date_posted = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+#     content = db.Column(db.Text, nullable=False)
+#     user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+
+#     def __repr__(self):
+#         return f"Post('{self.title}', '{self.date_posted}')"
+
+

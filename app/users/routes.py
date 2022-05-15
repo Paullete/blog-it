@@ -14,6 +14,7 @@ from flask_mail import Message
 users = Blueprint('users', __name__)
 
 
+
 @users.route("/register", methods=['GET', 'POST'])
 def register():
     if current_user.is_authenticated:
