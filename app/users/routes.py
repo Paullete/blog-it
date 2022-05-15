@@ -24,7 +24,7 @@ def register():
         user = User(username=form.username.data, email=form.email.data, password=hashed_password)
         db.session.add(user)
         db.session.commit()
-        mail_message("Welcome to 𝒹𝓇𝑒𝒶𝓂 𝒷𝓁💞𝑔𝑔𝑒𝓇 ","email/welcome_user",user.email,user=user)
+        mail_message("Welcome to Pote 𝒷𝓁💞𝑔𝑔𝑒𝓇 ","email/welcome_user",user.email,user=user)
         flash('Your account has been created! You are now able to log in', 'success')
         return redirect(url_for('users.login'))
     return render_template('register.html', title='Register', form=form)
@@ -114,7 +114,7 @@ def reset_token(token):
     return render_template('reset_token.html', title='Reset Password', form=form)
 
 def mail_message(subject,template,to,**kwargs):
-    sender_email = 'paullete.adhiambo@student.moringaschool.com'
+    sender_email = 'paullete.adhiambostudent.moringaschool.com'
 
     email = Message(subject, sender=sender_email, recipients=[to])
     email.body= render_template(template + ".txt",**kwargs)
