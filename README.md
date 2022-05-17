@@ -2,7 +2,7 @@
 
 ## Author.
 
-~ Paullete Adhiambo.
+~ Paullete Adhiambo
 ## Description
 
 A Flask framework { python } application that enables users login or sign in to post a blog and/or delete it,view existing blogs and set up profiles.
