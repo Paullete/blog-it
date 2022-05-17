@@ -1,6 +1,6 @@
 # BLOG-IT
 
-## Author
+## Author.
 
 ~ Paullete Adhiambo.
 ## Description
